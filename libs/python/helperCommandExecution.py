@@ -89,9 +89,8 @@ def login_btp(btpUsecase):
     btplogonidp = btpUsecase.btplogonidp
 
     command = (
-        "btp login --url 'https://cpcli.cf."
-        + btpCliRegion
-        + ".hana.ondemand.com' --subdomain '"
+        "btp login --url 'https://cli.btp.cloud.sap'"
+        + " --subdomain '"
         + globalaccount
         + "'"
     )
