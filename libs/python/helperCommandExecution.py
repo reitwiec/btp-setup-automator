@@ -67,9 +67,8 @@ def login_btp(btpUsecase):
     btpCliRegion = btpUsecase.btpcliapihostregion
 
     command = (
-        "btp login --url 'https://cpcli.cf."
-        + btpCliRegion
-        + ".hana.ondemand.com' --subdomain '"
+        "btp login --url 'https://cli.btp.cloud.sap'"
+        + " --subdomain '"
         + globalaccount
         + "'"
     )
